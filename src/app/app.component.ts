@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-roots',
+  templateUrl:
 })
-export class AppComponent {
-  title = 'Webjr';
+export class AppComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+
+  }
 }
